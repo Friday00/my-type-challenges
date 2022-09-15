@@ -22,6 +22,6 @@ const value: ITestValue = {
 };
 
 // const textValue: MyPicker<ITestValue, "age"> = "123";
-const textValue: MyPicker<ITestValue, "age"> = { age: 11 };
+const testValue: MyPicker<ITestValue, "age"> = { age: 11 };
 
-const textValue2: MyPicker<ITestValue, "test2"> = value;
+const testValue2: MyPicker<ITestValue, "test2"> = value;
